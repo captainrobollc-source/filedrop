@@ -14,3 +14,7 @@ PORT=3000 node server.js
 ```
 
 Environment (optional): `MAX_MB` (largest single file, default 4096).
+
+## Deploying
+
+Pushes to `main` deploy to the Pocket phone server automatically (it checks every 2 minutes), with a health check and automatic rollback if the new version fails to start.
