@@ -1,0 +1,8 @@
+{
+  "name": "filedrop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Private file and text drop between your own devices",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=20" }
+}

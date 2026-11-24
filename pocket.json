@@ -1,0 +1,6 @@
+{
+  "name": "filedrop",
+  "health": "/healthz",
+  "keep": ["data/"],
+  "maxMemory": "250M"
+}
